@@ -15,12 +15,7 @@
          $password = '';
  
          $pdo = new PDO($dsn, $user, $password);
-         try {
-            $pdo = new PDO($dsn, $user, $password);
-            echo 'データベースの接続に成功しました。';
-        } catch (PDOException $e) {
-            echo 'データベースの接続に失敗しました: ' . $e->getMessage();
-        }
+         
          ?>
      </p>
  </body>
