@@ -1,7 +1,9 @@
 <?php
- $dsn = 'mysql:dbname=php_db;host=localhost;charset=utf8mb4';
- $user = 'root';
- $password = '';
+ $dsn = 'mysql:dbname=nwmyim9hmc2b2vcj;
+ host=q0h7yf5pynynaq54.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;
+ charset=utf8mb4';
+$user = 'sh0dbtig658bj2t5';
+$password = 'htoxakwoouep8bcm';
  
  // idパラメータの値が存在すれば処理を行う
  if (isset($_GET['id'])) {
